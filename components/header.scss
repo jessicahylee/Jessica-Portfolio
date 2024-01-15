@@ -1,0 +1,13 @@
+.header__container-div {
+  border: 1px solid red;
+  display: flex;
+  &-logo {
+  }
+}
+.header__container-paragraphs {
+  display: flex;
+  border: 1px solid blue;
+align-self: center;
+
+ 
+}
