@@ -1,0 +1,14 @@
+.banner__container-div{
+    display: flex;
+
+    border: 1px solid red;
+    &-first{
+        display: flex;
+        flex-direction: column;
+        padding-left:10px;
+    }
+  &-image-div{
+    display: flex;
+    flex-direction: row;
+  }
+}
