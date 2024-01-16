@@ -1,0 +1,49 @@
+.services__container-div {
+  display: flex;
+  flex-direction: column;
+  &-first{
+    display: flex;
+    flex-direction: row;
+
+    
+  }
+  &-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-title-serv{
+    font-size: medium;
+  }
+  &-sf{
+    // border: 2px solid  rgb(176, 161, 161);
+    border-radius: 30px;
+  
+  }
+  &-sf-title{
+    font-weight: medium;
+  }
+  &-sf-paragraph{
+    font-size: small;
+  }
+ 
+    &-seo{
+        // border: 2px solid  rgb(176, 161, 161);
+         border-radius: 30px;
+    }
+    &-seo-title{
+        padding-left: 50px;
+    }
+    &-seo-paragraph{
+        font-size: small;
+    }
+   
+    &-google{
+        // border: 2px solid  rgb(176, 161, 161);
+         border-radius: 30px;
+    }
+    &-google-paragraph{
+        font-size: small;
+    }
+  }
+
