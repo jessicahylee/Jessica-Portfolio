@@ -1,26 +1,31 @@
+
+import { Link, Element } from 'react-scroll'
 import './about.scss'
 import './partials/fonts.scss'
 
 function About() {
   return (
-    <div className="about_me-div">
-      <h1 className="about_me-div-title">About:</h1>
-      <p className="about_me-div-paragraph">
-        {' '}
-     Heres a brief 400-character description about the importance
-        of continuous learning in the field of technology: In the rapidly
-        evolving landscape of technology, embracing continuous learning is not
-        merely a choice but a necessity. With innovations emerging incessantly,
-        staying current ensures professionals remain adept at the forefront of
-        their fields. Its an ongoing journey, fostering adaptability,
-        resilience, and a mindset primed for innovation—essential ingredients
-        for success in todays dynamic tech-driven world.
-      </p>
-      <div className="about_me-div-button">
-      <button className="about_me-div-cv"> Download my CV </button>
-      </div>
+    <div>
+      <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+      </Link>
+
+      <Element name="about" className="about_me-div">
+        <h1 className="about_me-div-title">About</h1>
+        <p className="about_me-div-paragraph">
+          The rise of sustainable technology signifies a pivotal shift in the
+          global landscape. From renewable energy solutions to eco-friendly
+          innovations, the pursuit of a greener future is reshaping industries,
+          fostering environmental stewardship, and inspiring a collective
+          commitment to address pressing ecological challenges.{' '}
+        </p>
+        <div className="about_me-div-button">
+          <button className="about_me-div-cv">Download my CV</button>
+        </div>
+      </Element>
     </div>
   )
 }
 
 export default About
+
+
