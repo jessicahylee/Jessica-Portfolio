@@ -2,10 +2,12 @@
   display: flex;
   padding-left: 50px;
   padding-top: 50px;
+
   &-image-div {
     display: flex;
     flex-direction: row;
   }
+
   &-picture {
     padding-left: 10px;
     width: 100px;
@@ -14,9 +16,11 @@
     border: 2px solid #fff; /* Add a border for better visibility */
     transition: transform 0.3s ease-in-out;
   }
+
   .banner__container-picture:hover {
     transform: scale(1.1);
   }
+
   .banner__container-img {
     margin-right: 10px;
     transition: transform 0.3s ease-in-out;
@@ -26,17 +30,28 @@
     transform: scale(1.1);
   }
 }
+
 .banner__container-title-div {
   padding-right: 10px;
 }
+
 .banner__container-img {
   padding-left: 5px;
   padding-right: 5px;
 }
-.banner__container-title{
-margin: 0;
+
+.banner__container-title {
+  margin: 0;
+  color: #421c0a;
 }
-.banner__container-about{
-    margin-top: auto;
-    font-size: small;
+
+.banner__container-about {
+  margin-top: auto;
+  font-size: small;
 }
+
+
+
+
+
+

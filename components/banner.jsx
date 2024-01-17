@@ -3,7 +3,7 @@ import './banner.scss';
 import './partials/fonts.scss';
 import linkedin from './assets/linkedin.svg';
 import github from './assets/github.svg'
-import jessica from './assets/picture.jpeg'
+import jessica from './assets/jessicalee.jpeg'
 
 function Banner() {
   return (
@@ -20,7 +20,7 @@ function Banner() {
       </div>
      
       <div className="banner__container-image-div">
-       <img className="banner__container-picture"src={jessica} width="100px" alt="Jessica"/>
+       <img className="banner__container-picture"src={jessica} width="150px" alt="Jessica"/>
        </div>
      
     </div>

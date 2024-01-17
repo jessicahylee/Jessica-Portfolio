@@ -22,6 +22,7 @@
   }
   &-sf-title{
     font-weight: medium;
+    color: #421c0a
   }
   &-sf-paragraph{
     font-size: small;
@@ -33,14 +34,18 @@
     }
     &-seo-title{
         padding-left: 50px;
+         color: #421c0a
     }
     &-seo-paragraph{
         font-size: small;
     }
    
     &-google{
-        // border: 2px solid  rgb(176, 161, 161);
          border-radius: 30px;
+    }
+    &-google-title{
+          color: #421c0a;
+          padding-left: 40px;
     }
     &-google-paragraph{
         font-size: small;
