@@ -1,56 +1,92 @@
 .services__container-div {
   display: flex;
   flex-direction: column;
-  &-first{
+  &-first {
     display: flex;
     flex-direction: row;
-
-    
   }
-  &-title{
+  &-title {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  &-title-serv{
+  &-title-serv {
     font-size: medium;
   }
-  &-sf{
+  &-sf {
     // border: 2px solid  rgb(176, 161, 161);
     border-radius: 30px;
-  
   }
-  &-sf-title{
+  &-sf-title {
     font-weight: medium;
-    color: #421c0a
+    color: #421c0a;
   }
-  &-sf-paragraph{
+  &-sf-paragraph {
     font-size: small;
   }
- 
-    &-seo{
-        // border: 2px solid  rgb(176, 161, 161);
-         border-radius: 30px;
-    }
-    &-seo-title{
-        padding-left: 50px;
-         color: #421c0a
-    }
-    &-seo-paragraph{
-        font-size: small;
-    }
-   
-    &-google{
-         border-radius: 30px;
-    }
-    &-google-title{
-          color: #421c0a;
-          padding-left: 40px;
-    }
-    &-google-paragraph{
-        font-size: small;
-    }
+
+  &-seo {
+    // border: 2px solid  rgb(176, 161, 161);
+    border-radius: 30px;
   }
-.services-div{
+  &-seo-title {
+    padding-left: 50px;
+    color: #421c0a;
+  }
+  &-seo-paragraph {
+    font-size: small;
+  }
+
+  &-google {
+    border-radius: 30px;
+  }
+  &-google-title {
+    color: #421c0a;
+    padding-left: 40px;
+  }
+  &-google-paragraph {
+    font-size: small;
+  }
+}
+.services-div {
   padding-top: 50px;
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .services__container-div {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  .services__container-div-sf {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services__container-div-sf-paragraph {
+    font-size: medium;
+  }
+  .services__container-div-seo-paragraph {
+    font-size: medium;
+  }
+  .services__container-div-google-paragraph {
+    font-size: medium;
+  }
+  .services__container-div-seo-title {
+    font-size: large;
+  }
+  .services__container-div-google-title {
+    font-size: large;
+  }
+  .services__container-div-sf-title {
+    font-size: large;
+  }
+  .services__container-div-seo {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services__container-div-google {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services__container-div-title-serv{
+    font-size:large;
+  }
 }

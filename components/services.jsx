@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, Element } from 'react-scroll'
 import './services.scss'
 import './partials/fonts.scss'
@@ -6,8 +5,13 @@ import './partials/fonts.scss'
 function Services() {
   return (
     <div className="services-div ">
-      <Link to="services" spy={true} smooth={true} offset={-50} duration={500}>
-      </Link>
+      <Link
+        to="services"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={500}
+      ></Link>
 
       <Element name="services" className="services__container-div">
         <div className="services__container-div-title">

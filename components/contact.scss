@@ -1,6 +1,11 @@
 .form__container-div {
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
+  &-name1 {
+    display: flex;
+    flex-direction: column;
+  }
   &-name {
     font-size: small;
     padding-left: 20px;
@@ -17,8 +22,6 @@
     font-size: small;
     border: 1px solid black;
     margin: 0;
-
-
   }
   &-email {
     font-size: small;
@@ -35,7 +38,7 @@
     font-family: 'Quicksand', sans-serif;
     font-size: small;
     border: 1px solid black;
-     margin: 0;
+    margin: 0;
   }
   &-table {
     font-size: small;
@@ -48,7 +51,7 @@
     border-radius: 30px;
     margin: 1em;
     padding: 1em 1em;
-     margin: 0;
+    margin: 0;
   }
   &-table-message {
     color: black;
@@ -56,26 +59,40 @@
     margin: 1em;
     padding: 1em 5em;
     border: 0;
- background-color: rgb(176, 161, 161);
+    background-color: rgb(176, 161, 161);
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: small;
     border: 1px solid white;
-
   }
 }
 .form_container-div {
   display: flex;
   justify-content: center;
 }
-.form__container-image{
-    padding-left: 10px;
+.form__container-image {
+  padding-left: 10px;
 }
-.contact-title{
-justify-content: center;
+.form__container-image-pic {
+  border-radius: 05%;
+}
+
+.contact-title {
+  justify-content: center;
   font-size: medium;
   display: flex;
   padding-top: 50px;
-
 }
- 
+.form__container-div-message {
+ // Here is to make the input message larger 
+}
+
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .form__container-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-title-name {
+    font-size: large;
+  }
+}

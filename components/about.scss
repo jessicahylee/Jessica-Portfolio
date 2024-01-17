@@ -27,3 +27,12 @@
   font-size: small;
   
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+  .about_me-div{
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  .about_me-div-paragraph{
+    font-size:medium
+  }
+}

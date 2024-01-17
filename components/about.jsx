@@ -17,6 +17,11 @@ function About() {
           innovations, the pursuit of a greener future is reshaping industries,
           fostering environmental stewardship, and inspiring a collective
           commitment to address pressing ecological challenges.{' '}
+          The rise of sustainable technology signifies a pivotal shift in the
+          global landscape. From renewable energy solutions to eco-friendly
+          innovations, the pursuit of a greener future is reshaping industries,
+          fostering environmental stewardship, and inspiring a collective
+          commitment to address pressing ecological challenges.{' '}
         </p>
         <div className="about_me-div-button">
           <button className="about_me-div-cv">Download my CV</button>

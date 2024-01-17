@@ -9,7 +9,7 @@
   }
 
   &-picture {
-    padding-left: 10px;
+   
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -22,7 +22,7 @@
   }
 
   .banner__container-img {
-    margin-right: 10px;
+   
     transition: transform 0.3s ease-in-out;
   }
 
@@ -33,6 +33,7 @@
 
 .banner__container-title-div {
   padding-right: 10px;
+  padding-top: 60px;
 }
 
 .banner__container-img {
@@ -49,7 +50,30 @@
   margin-top: auto;
   font-size: small;
 }
+.banner__container-icons-div-link{
+  display: flex;
+  flex-direction: row;
 
+}
+.banner__container-image-div{
+  padding-right: 20px;
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+.banner__container-div{
+display: flex;
+justify-content: center;
+}
+.banner__container-title{
+ font-size: xx-large;
+}
+.banner__container-about{
+  font-size: medium;
+}
+}
 
 
 
