@@ -1,6 +1,7 @@
 .header__container-div {
   display: flex;
   padding-left: 50px;
+  background-color: rgb(176, 161, 161)
 }
 .header__container-paragraphs {
   display: flex;
@@ -16,4 +17,7 @@
   .header__container-paragraph{
   font-size: medium;
 }
+.header__container-div {
+   background-color: rgb(176, 161, 161)
+};
 }

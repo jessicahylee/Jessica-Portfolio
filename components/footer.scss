@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 40px;
-// border: 1px solid black;
+    padding-top: 10px;
+    background-color: rgb(176, 161, 161);
+
 
     &-div{
         // border: 1px solid red;
-        margin: 0;
+       
     }
     &-logo{
         margin: 0;
@@ -19,10 +20,17 @@
     }
     &-address{
         font-size: small;
-        margin: 0;
+     
     }
     &-sup{
         padding-left: 60px;
         font-size: small;
     }
+}
+@media (min-width: 1180px) and (max-width: 1800px) {
+.footer_container{
+   justify-content: space-around;
+ background-color: rgb(176, 161, 161);
+}
+
 }
