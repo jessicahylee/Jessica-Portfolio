@@ -83,10 +83,19 @@
   display: flex;
   padding-top: 50px;
 }
-.form__container-div-message {
- // Here is to make the input message larger 
+.form__container-div-table-table {
+  padding: 1em 12em;
 }
 
+.div__form {
+  border: 1px solid blue;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.form__container-div-2 {
+  display: flex;
+  flex-direction: column;
+}
 @media (min-width: 1180px) and (max-width: 1800px) {
   .form__container-div {
     display: flex;
@@ -94,5 +103,18 @@
   }
   .contact-title-name {
     font-size: large;
+  }
+  .form__container-div-table-table {
+    padding: 1em em;
+
+  }
+  .form__container-div-name1{
+     padding: 1em 12em;
+  }
+  .form__container-div-2{
+     padding: 1em 12em;
+  }
+  .form__container-div-message{
+    padding-left: 199px;
   }
 }

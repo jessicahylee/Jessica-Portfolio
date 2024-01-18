@@ -57,31 +57,32 @@ function Contact() {
 
       <Element name="contact" className="form__container-div">
         <form className="form__container-div" ref={form} onSubmit={sendEmail}>
-          <div className="form__container-div-name1">
-            <label className="form__container-div-name">Name</label>
+          <div className="div__form">
+            <div className="form__container-div-name1">
+              <label className="form__container-div-name">Name</label>
 
-            <input
-              className="form__container-div-name-text"
-              type="text"
-              name="user_name"
-            />
+              <input
+                className="form__container-div-name-text"
+                type="text"
+                name="user_name"
+              />
+            </div>
+            <div className="form__container-div-2">
+              <label className="form__container-div-email">Email</label>
+              <input
+                className="form__container-div-email-text"
+                type="email"
+                name="user_email"
+              />
+            </div>
+            <div className="form__container-div-message">
+              <label className="form__container-div-table">Message</label>
+              <textarea
+                className="form__container-div-table-table"
+                name="message"
+              />
+            </div>
           </div>
-          <div className="form__container-div">
-            <label className="form__container-div-email">Email</label>
-            <input
-              className="form__container-div-email-text"
-              type="email"
-              name="user_email"
-            />
-          </div>
-          <div className="form__container-div-message">
-            <label className="form__container-div-table">Message</label>
-            <textarea
-              className="form__container-div-table-table"
-              name="message"
-            />
-          </div>
-
           <div className="form_container-div">
             <input
               className="form__container-div-table-message"
@@ -93,7 +94,7 @@ function Contact() {
             <img
               className="form__container-image-pic"
               src={contact}
-              width="550vx"
+              width="520vx"
               alt="Contact"
             />
           </div>
