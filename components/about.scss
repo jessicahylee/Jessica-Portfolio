@@ -10,8 +10,8 @@
   }
   &-paragraph {
     font-size: small;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 .about_me-div-button {
@@ -29,10 +29,15 @@
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-size: small;
-text-decoration: none;
+  text-decoration: none;
+}
+
+.about_me-div-cv:hover {
+  background-color: #4d2010;
+}
 
   
-}
+
 @media (min-width: 1180px) and (max-width: 1800px) {
   .about_me-div{
     padding-right: 200px;

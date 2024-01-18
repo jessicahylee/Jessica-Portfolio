@@ -16,22 +16,25 @@ function About() {
       <Element name="about" className="about_me-div">
         <h1 className="about_me-div-title">About</h1>
         <p className="about_me-div-paragraph">
-          The rise of sustainable technology signifies a pivotal shift in the
-          global landscape. From renewable energy solutions to eco-friendly
-          innovations, the pursuit of a greener future is reshaping industries,
-          fostering environmental stewardship, and inspiring a collective
-          commitment to address pressing ecological challenges. The rise of
-          sustainable technology signifies a pivotal shift in the global
-          landscape. From renewable energy solutions to eco-friendly
-          innovations, the pursuit of a greener future is reshaping industries,
-          fostering environmental stewardship, and inspiring a collective
-          commitment to address pressing ecological challenges.{' '}
+          Hello, Im Jessica, a recent graduate from Brainstation with a diploma
+          in software engineering. My passion lies in designing minimal and
+          practical tools that offer an easy and intuitive user experience.
+          Drawing parallels between coding and learning languages, Ive developed
+          a natural connection to code, enabling me to communicate effectively
+          across multiple programming languages. Over the past three years, I
+          have immersed myself in the technology world, gaining valuable
+          experience in SEO and Google Ads. In addition to successfully managing
+          these aspects for my own small business, Ive also contributed to the
+          growth and success of other businesses by consistently achieving positive results.
         </p>
         <div className="about_me-div-button">
-        
-          <a className="about_me-div-cv" href="'./assets/Jessica_Lee 2.docx.pdf" download>
+          <a
+            className="about_me-div-cv"
+            href="'./assets/Jessica_Lee 2.docx.pdf"
+            download
+          >
             {' '}
-            Download my CV {' '}
+            Download my CV{' '}
           </a>
         </div>
       </Element>
