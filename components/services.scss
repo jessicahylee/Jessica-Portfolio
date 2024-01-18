@@ -6,6 +6,7 @@
   &-first {
     display: flex;
     flex-direction: row;
+   padding-left: 10px;
   }
   &-title {
     display: flex;
@@ -18,6 +19,7 @@
   &-sf {
     // border: 2px solid  rgb(176, 161, 161);
     border-radius: 30px;
+    padding-left: 15px;
   }
   &-sf-title {
     font-weight: medium;
@@ -30,6 +32,7 @@
   &-seo {
     // border: 2px solid  rgb(176, 161, 161);
     border-radius: 30px;
+    padding-left: 15px;
   }
   &-seo-title {
     padding-left: 50px;
@@ -41,6 +44,7 @@
 
   &-google {
     border-radius: 30px;
+    padding-left: 15px;
   }
   &-google-title {
     color: #421c0a;
