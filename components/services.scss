@@ -1,6 +1,8 @@
 .services__container-div {
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
   &-first {
     display: flex;
     flex-direction: row;

@@ -90,14 +90,14 @@ function Contact() {
               value="Send"
             />
           </div>
-          <div className="form__container-image">
+          {/* <div className="form__container-image">
             <img
               className="form__container-image-pic"
               src={contact}
               width="530vx"
               alt="Contact"
             />
-          </div>
+          </div> */}
     
         </form>
       </Element>

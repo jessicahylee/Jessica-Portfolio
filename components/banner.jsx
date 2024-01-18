@@ -9,7 +9,7 @@ function Banner() {
     <div className="banner__container-div">
       <div className="banner__container-title-div">
         <h2 className="banner__container-title">Front-End-Developer</h2>
-        <p className="  ">
+        <p className="banner__container-title1">
           Im Jessica, a passionate Front-end-Developer based in Canada
         </p>
 
@@ -39,7 +39,7 @@ function Banner() {
         <img
           className="banner__container-picture"
           src={jessica}
-          width="220x"
+          // width="auto"
           alt="Jessica"
         />
       </div>

@@ -1,7 +1,8 @@
 .banner__container-div {
   display: flex;
-  padding-left: 50px;
+  padding-left: 60px;
   padding-top: 50px;
+  padding-right: 20px;
 
   &-image-div {
     display: flex;
@@ -9,14 +10,20 @@
   }
 
   &-picture {
-   
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 2px solid #fff; /* Add a border for better visibility */
     transition: transform 0.3s ease-in-out;
+  
   }
-
+  .banner__container-picture{
+    width: 200px;
+    height: auto;
+  }
+  .banner__container-image-div{
+    padding-left: 10px;
+  }
   .banner__container-picture:hover {
     transform: scale(1.1);
   }
@@ -32,18 +39,20 @@
 }
 
 .banner__container-title-div {
-  padding-right: 10px;
+
   padding-top: 60px;
 }
 
 .banner__container-img {
-  padding-left: 5px;
+  padding-left: 05px;
   padding-right: 5px;
+  width: 20px;
 }
 
 .banner__container-title {
   margin: 0;
   color: #421c0a;
+  font-size: medium;
 }
 
 .banner__container-about {
@@ -55,10 +64,9 @@
   flex-direction: row;
 
 }
-.banner__container-image-div{
-  padding-right: 20px;
+.banner__container-title1{
+  font-size: small;
 }
-
 @media (min-width: 820px) and (max-width: 1180px) {
 
 }

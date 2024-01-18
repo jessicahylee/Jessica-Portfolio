@@ -6,14 +6,18 @@
     font-size: large;
     display: flex;
     justify-content: center;
+    font-size: medium;
   }
   &-paragraph {
     font-size: small;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 }
 .about_me-div-button {
   display: flex;
   justify-content: center;
+  padding-top: 15px;
 }
 .about_me-div-cv {
   color: black;
