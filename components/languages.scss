@@ -5,3 +5,9 @@
     padding-top: 12px;
     padding-bottom: 40px;
 }
+@media (min-width: 1180px) and (max-width: 1800px) {
+    .languages__div{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

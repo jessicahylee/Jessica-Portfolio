@@ -2,7 +2,7 @@ import './contact.scss'
 import './partials/fonts.scss'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import contact from './assets/contact.png'
+// import contact from './assets/contact.png'
 import { Link, Element } from 'react-scroll'
 
 function Contact() {

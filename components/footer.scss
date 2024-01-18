@@ -1,0 +1,28 @@
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+// border: 1px solid black;
+
+    &-div{
+        // border: 1px solid red;
+        margin: 0;
+    }
+    &-logo{
+        margin: 0;
+        padding-left: 60px;
+    }
+    &-toronto{
+       padding-left: 60px;
+    
+    }
+    &-address{
+        font-size: small;
+        margin: 0;
+    }
+    &-sup{
+        padding-left: 60px;
+        font-size: small;
+    }
+}
