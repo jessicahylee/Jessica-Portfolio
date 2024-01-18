@@ -21,33 +21,35 @@ function Services() {
         <div className="services__container-div-first">
           <div className="services__container-div-sf">
             <h4 className="services__container-div-sf-title">
-              Software Engineering
+              Software Dev.
             </h4>
             <p className="services__container-div-sf-paragraph">
-              This is just a really nice site. And, while Rob isnt presenting
-              himself as a software engineer, he is showing a diverse range of
-              skills beyond simply coding. His blog provides insights into his
-              teaching, communications, and technical system design skills.
+              I create software tailored to unique business needs web, mobile,
+              desktop solutions. Expert in efficient database design, ensuring
+              optimal data handling. Simplifying complexities for seamless user
+              experiences
             </p>
           </div>
 
           <div className="services__container-div-seo">
             <h4 className="services__container-div-seo-title">SEO</h4>
             <p className="services__container-div-seo-paragraph">
-              This is just a really nice site. And, while Rob isnt presenting
-              himself as a software engineer, he is showing a diverse range of
-              skills beyond simply coding. His blog provides insights into his
-              teaching, communications, and technical system design skills.
+              I understand the significance of SEO in enhancing visibility,
+              driving organic traffic, and optimizing rankings. For small
+              businesses, SEO is a powerful tool that not only increases online
+              visibility but also establishes credibility and fosters growth
             </p>
           </div>
 
           <div className="services__container-div-google">
-            <h4 className="services__container-div-google-title">Google Ads</h4>
+            <h4 className="services__container-div-google-title"> Ads</h4>
             <p className="services__container-div-google-paragraph">
-              This is just a really nice site. And, while Rob isnt presenting
-              himself as a software engineer, he is showing a diverse range of
-              skills beyond simply coding. His blog provides insights into his
-              teaching, communications, and technical system design skills.
+              Ads amplify your message, showcasing exceptional products.
+              Strategically targeting ensures reaching potential customers who
+              may not discover offerings organically. The synergy of remarkable
+              products, engaging content, and strategic advertising drives
+              traffic, boosts brand visibility, fostering business success in
+              the digital landscape
             </p>
           </div>
         </div>
