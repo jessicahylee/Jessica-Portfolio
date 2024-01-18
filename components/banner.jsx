@@ -9,7 +9,7 @@ function Banner() {
     <div className="banner__container-div">
       <div className="banner__container-title-div">
         <h2 className="banner__container-title">Front-End-Developer</h2>
-        <p className="banner__container-about">
+        <p className="  ">
           Im Jessica, a passionate Front-end-Developer based in Canada
         </p>
 

@@ -94,10 +94,11 @@ function Contact() {
             <img
               className="form__container-image-pic"
               src={contact}
-              width="520vx"
+              width="530vx"
               alt="Contact"
             />
           </div>
+    
         </form>
       </Element>
     </div>
