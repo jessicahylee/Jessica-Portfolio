@@ -21,11 +21,11 @@ function About() {
           practical tools that offer an easy and intuitive user experience.
           Drawing parallels between coding and learning languages, Ive developed
           a natural connection to code, enabling me to communicate effectively
-          across multiple programming languages. Over the past three years, I
+          across multiple programming languages. Over the past five years, I
           have immersed myself in the technology world, gaining valuable
-          experience in SEO and Google Ads. In addition to successfully managing
+          experience in SEO and Ads. In addition to successfully managing
           these aspects for my own small business, Ive also contributed to the
-          growth and success of other businesses by consistently achieving positive results.
+          growth and success of other businesses.
         </p>
         <div className="about_me-div-button">
           <a

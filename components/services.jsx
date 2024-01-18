@@ -20,9 +20,7 @@ function Services() {
 
         <div className="services__container-div-first">
           <div className="services__container-div-sf">
-            <h4 className="services__container-div-sf-title">
-              Software Dev.
-            </h4>
+            <h4 className="services__container-div-sf-title">Software Dev.</h4>
             <p className="services__container-div-sf-paragraph">
               I create software tailored to unique business needs web, mobile,
               desktop solutions. Expert in efficient database design, ensuring
@@ -34,10 +32,9 @@ function Services() {
           <div className="services__container-div-seo">
             <h4 className="services__container-div-seo-title">SEO</h4>
             <p className="services__container-div-seo-paragraph">
-              I understand the significance of SEO in enhancing visibility,
-              driving organic traffic, and optimizing rankings. For small
-              businesses, SEO is a powerful tool that not only increases online
-              visibility but also establishes credibility and fosters growth
+              SEO boosts visibility, drives organic traffic, and optimizes
+              rankings. For small businesses, its a potent tool, enhancing
+              online presence, establishing credibility, and fostering growth.
             </p>
           </div>
 
