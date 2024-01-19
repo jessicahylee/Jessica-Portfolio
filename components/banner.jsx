@@ -7,6 +7,14 @@ import jessica from './assets/jessy.png'
 function Banner() {
   return (
     <div className="banner__container-div">
+       <div className="banner__container-image-div">
+        <img
+          className="banner__container-picture"
+          src={jessica}
+          // width="auto"
+          alt="Jessica"
+        />
+      </div>
       <div className="banner__container-title-div">
         <h2 className="banner__container-title">Front End Developer</h2>
         <p className="banner__container-title1">
@@ -35,14 +43,7 @@ function Banner() {
         </div>
       </div>
 
-      <div className="banner__container-image-div">
-        <img
-          className="banner__container-picture"
-          src={jessica}
-          // width="auto"
-          alt="Jessica"
-        />
-      </div>
+     
     </div>
   )
 }
