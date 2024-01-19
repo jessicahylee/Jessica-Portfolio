@@ -1,129 +1,244 @@
-.form__container-div {
+.form__container-div{
   display: flex;
   flex-direction: column;
-  // border: 1px solid red;
-  &-name1 {
-    display: flex;
-    flex-direction: column;
-  }
-  &-name {
-    font-size: small;
-   
-  }
-  &-name-text {
-    color: black;
-    border-radius: 30px;
-    margin: 1em;
-    padding: 1em 10em;
-    border: 0;
-    background-color: white;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: small;
-    border: 1px solid black;
-    margin: 0;
-  }
-  &-email {
-    font-size: small;
-   
-  }
-  &-email-text {
-    color: black;
-    border-radius: 30px;
-    margin: 1em;
-    padding: 1em 0em;
-    border: 0;
-    background-color: white;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: small;
-    border: 1px solid black;
-    margin: 0;
-  }
-  &-table {
-    font-size: small;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  &-table-table {
-    height: 150px;
-    border-radius: 30px;
-    margin: 1em;
-    padding: 1em 1em;
-    margin: 0;
-  }
-  &-table-message {
-  
-    border-radius: 30px;
-    margin: 1em;
-    padding: 1em 5em;
-    border: 0;
-    background-color: rgb(176, 161, 161);
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-size: small;
-    border: 1px solid white;
-     cursor: pointer;
-  transition: background-color 0.3s ease;
-  }
-  .form__container-div-table-message:hover {
-  background-color: #4d2010;
-}
-}
-.form_container-div {
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+&-paragraph{
+  justify-content: center;
   display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
-}
-.form__container-image {
-  padding-left: 10px;
-}
-.form__container-image-pic {
-  border-radius: 05%;
-  padding-left: 10px;
-}
-
-.contact-title {
-  justify-content: center;
   font-size: medium;
-  display: flex;
-  padding-top: 50px;
 }
-
-
-.div__form {
-  // border: 1px solid blue;
-  padding-left: 40px;
-  padding-right: 40px;
+&-second{
+  border: 1px solid white;
 }
-.form__container-div-2 {
+&-name1{
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 1180px) and (max-width: 1800px) {
-  .form__container-div {
+&-name{
+  font-size: small;
+}
+&-name-text{
+  border-radius: 30px;
+   border: 1px solid black;
+   padding-top: 10px;
+  
+}
+&-2{
+  display: flex;
+  flex-direction: column;
+}
+&-email{
+  font-size: small;
+}
+&-email-text{
+  border-radius: 30px;
+   border: 1px solid black;
+   padding-top: 10px;
+}
+&-message{
+  display: flex;
+  flex-direction: column;
+}
+&-table{
+ font-size: small;
+}
+&-table-ble{
+    border-radius: 30px;
+     border: 1px solid black;
+     padding-top: 10px;
+}
+&-button{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 25px;
+}
+&-table-message{
+    color: black;
+  border-radius: 30px;
+ padding-top: 10px;
+  padding: 1em 2em;
+  border: 0;
+  background-color: rgb(176, 161, 161);
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: small;
+  text-decoration: none;
+   cursor: pointer;
+transition: background-color 0.3s ease;
+  }
+  // .form__container-div-table-message:hover {
+  //   background-color: #4d2010;
+  // }
+  
+
+}
+@media (min-width: 1024px) and (max-width: 1800px) {
+  .form__container-div-second{
     display: flex;
     flex-direction: column;
-     padding-bottom: 20px;
   }
-  .contact-title-name {
-    font-size: large;
-  }
-  .form__container-div-table-table {
-    padding: 1em 30em;
+ 
 
-  }
-  .form__container-div-name1{
-     padding: 1em 12em;
-  }
-  .form__container-div-2{
-     padding: 1em 12em;
-  }
-  .form__container-div-message{
-    padding-left: 199px;
-  }
-    .form__container-div-table-message:hover {
-  background-color: #4d2010;
 }
-}
+
+
+
+// .form__container-div {
+//   display: flex;
+//   flex-direction: column;
+//   border: 1px solid red;
+//   &-second {
+//     border: 1px solid blue;
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   &-name1 {
+//     display: flex;
+//     flex-direction: column;
+//     border: 1px solid red;
+//     padding: 1em 2em;
+//     margin: 0;
+//   }
+//   &-name {
+//     font-size: small;
+//   }
+//   &-name-text {
+//     color: black;
+//     border-radius: 30px;
+//     margin: 1em;
+//     padding: 1em 10em;
+//     border: 0;
+//     background-color: white;
+//     color: black;
+//     font-family: 'Quicksand', sans-serif;
+//     font-size: small;
+//     border: 1px solid black;
+//     margin: 0;
+//     //name of the input
+//   }
+//   &-2 {
+//     display: flex;
+//     flex-direction: column;
+//     border: 1px solid green;
+//     padding: 1em 2em;
+//   }
+//   &-email {
+//     font-size: small;
+//   }
+//   &-email-text {
+//     color: black;
+//     border-radius: 30px;
+//     margin: 1em;
+//     padding: 1em 10em;
+//     border: 0;
+//     background-color: white;
+//     color: black;
+//     font-family: 'Quicksand', sans-serif;
+//     font-size: small;
+//     border: 1px solid black;
+//     margin: 0;
+//     // this is the INPUT FOR EMAL
+//   }
+//   &-message {
+//     border: 2px solid brown;
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   &-table {
+//     font-size: small;
+//     padding-left: 20px;
+
+//     // message name
+//   }
+//   .form__container-div-table-table {
+//     color: black;
+//     border-radius: 30px;
+//     margin: 1em;
+//     padding: 1em 5em;
+//     border: 0;
+//     background-color: white;
+//     color: black;
+//     font-family: 'Quicksand', sans-serif;
+//     font-size: small;
+//     border: 1px solid black;
+//     margin: 0;
+//     //name of the input
+//   }
+//   &-table-message {
+//     border-radius: 30px;
+//     margin: 1em;
+//     padding: 1em 5em;
+//     border: 0;
+//     background-color: rgb(176, 161, 161);
+//     color: white;
+//     font-family: 'Quicksand', sans-serif;
+//     font-size: small;
+//     border: 1px solid white;
+//     cursor: pointer;
+
+//     transition: background-color 0.3s ease;
+//   }
+//   .form__container-div-table-message:hover {
+//     background-color: #4d2010;
+//   }
+// }
+// .form_container-div {
+//   display: flex;
+//   justify-content: center;
+//   padding-bottom: 20px;
+// }
+
+// .contact-title {
+//   justify-content: center;
+//   font-size: medium;
+//   display: flex;
+//   padding-top: 50px;
+// }
+
+// .form__container-div-2 {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// // .form__container-div-message {
+// //   display: flex;
+// //   flex-direction: column;
+// // }
+
+// @media (min-width: 1024px) and (max-width: 1800px) {
+//   .form__container-div {
+//     display: flex;
+//     flex-direction: column;
+//     padding-bottom: 12px;
+//   }
+//   .contact-title-name {
+//     font-size: large;
+//   }
+//   .form__container-div-table-table {
+//     padding: 1em 7em;
+//   }
+
+//   .form__container-div-2 {
+//     padding: 1em 10em;
+//   }
+//   .form__container-div-message {
+//     display: flex;
+//     flex-direction: column;
+//     padding: 1em 10em;
+//   }
+// }
+// .form__container-div-table-message:hover {
+//   background-color: #4d2010;
+// }
+
+// .form__container-div-name1 {
+//   padding: 1em 10em;
+//   // this changes the WITDH for name input
+// }
+// .form__container-div-2 {
+//   padding: 1em 10em;
+// }

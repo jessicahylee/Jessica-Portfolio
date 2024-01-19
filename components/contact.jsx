@@ -52,12 +52,18 @@ function Contact() {
         offset={-50}
         duration={500}
       >
-        Contact me
+       
       </Link>
 
-      <Element name="contact" className="form__container-div">
-        <form className="form__container-div" ref={form} onSubmit={sendEmail}>
-          <div className="div__form">
+      <Element>
+        <div className="form__container-div">
+          
+        <form ref={form} onSubmit={sendEmail}>
+          
+          <div className="form__container-div-second">
+            <p className="form__container-div-paragraph"> Contact me </p>
+
+
             <div className="form__container-div-name1">
               <label className="form__container-div-name">Name</label>
 
@@ -67,6 +73,7 @@ function Contact() {
                 name="user_name"
               />
             </div>
+            
             <div className="form__container-div-2">
               <label className="form__container-div-email">Email</label>
               <input
@@ -80,26 +87,23 @@ function Contact() {
               <textarea
                 className="form__container-div-table-table"
                 name="message"
+                type="message"
               />
             </div>
           </div>
-          <div className="form_container-div">
+
+
+
+          <div className="form__container-div-button">
             <input
               className="form__container-div-table-message"
               type="submit"
-              value="Send"
+             
             />
           </div>
-          {/* <div className="form__container-image">
-            <img
-              className="form__container-image-pic"
-              src={contact}
-              width="530vx"
-              alt="Contact"
-            />
-          </div> */}
     
         </form>
+        </div>
       </Element>
     </div>
   )
