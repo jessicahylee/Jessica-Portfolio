@@ -1,12 +1,18 @@
 .banner__container-div {
   display: flex;
-  padding-left: 40px;
+
   padding-top: 50px;
-  padding-right: 20px;
+  border: 1px solid red;
+  
+
+
+
 
   &-image-div {
     display: flex;
     flex-direction: row;
+  
+    
   
 
   }
