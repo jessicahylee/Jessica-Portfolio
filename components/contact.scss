@@ -8,7 +8,7 @@
   }
   &-name {
     font-size: small;
-    padding-left: 20px;
+   
   }
   &-name-text {
     color: black;
@@ -25,7 +25,7 @@
   }
   &-email {
     font-size: small;
-    padding-left: 20px;
+   
   }
   &-email-text {
     color: black;
@@ -90,9 +90,7 @@
   display: flex;
   padding-top: 50px;
 }
-.form__container-div-table-table {
-  padding: 1em 13em;
-}
+
 
 .div__form {
   // border: 1px solid blue;
