@@ -4,39 +4,35 @@
     align-items: center;
     padding-top: 10px;
     background-color: rgb(176, 161, 161);
-    padding-left: 100px;
-
-
+   justify-content: center;
+   
     &-div1{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
       
        
     }
-    &-div{
-        padding-left: 10px;
-    }
     &-logo{
         margin: 0;
-   
+    }
+    &-toronto{
+        padding-right: 5px;
     }
     &-address{
-        font-size: small;
-        padding-left: 30px;
-        padding-right: 10px;
-       
-     
+        font-size: small; 
     }
-    &-sup{
-         padding-right: 10px;
+    &-support{
+        padding-right: 5px;
+    }
+    &-sup{   
         font-size: small;
     }
 }
 @media (min-width: 1180px) and (max-width: 1800px) {
 .footer_container{
-   justify-content: space-around;
+   justify-content: center;
  background-color: rgb(176, 161, 161);
 }
+
 
 }

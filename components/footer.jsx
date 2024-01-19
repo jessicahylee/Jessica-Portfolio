@@ -16,7 +16,7 @@ function Footer() {
         <p className="footer_container-sup">Support</p>
     </div>
     </div>
-     </div>
+    </div>
  
   )
 }

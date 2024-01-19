@@ -51,58 +51,49 @@ function Contact() {
         smooth={true}
         offset={-50}
         duration={500}
-      >
-       
-      </Link>
+      ></Link>
 
-      <Element>
+      <Element name="contact">
         <div className="form__container-div">
-          
-        <form ref={form} onSubmit={sendEmail}>
-          
-          <div className="form__container-div-second">
-            <p className="form__container-div-paragraph"> Contact me </p>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="form__container-div-second">
+              <p className="form__container-div-paragraph"> Contact </p>
 
+              <div className="form__container-div-name1">
+                <label className="form__container-div-name">Name</label>
 
-            <div className="form__container-div-name1">
-              <label className="form__container-div-name">Name</label>
+                <input
+                  className="form__container-div-name-text"
+                  type="text"
+                  name="user_name"
+                />
+              </div>
 
+              <div className="form__container-div-2">
+                <label className="form__container-div-email">Email</label>
+                <input
+                  className="form__container-div-email-text"
+                  type="email"
+                  name="user_email"
+                />
+              </div>
+              <div className="form__container-div-message">
+                <label className="form__container-div-table">Message</label>
+                <textarea
+                  className="form__container-div-table-table"
+                  name="message"
+                  type="message"
+                />
+              </div>
+            </div>
+
+            <div className="form__container-div-button">
               <input
-                className="form__container-div-name-text"
-                type="text"
-                name="user_name"
+                className="form__container-div-table-message"
+                type="submit"
               />
             </div>
-            
-            <div className="form__container-div-2">
-              <label className="form__container-div-email">Email</label>
-              <input
-                className="form__container-div-email-text"
-                type="email"
-                name="user_email"
-              />
-            </div>
-            <div className="form__container-div-message">
-              <label className="form__container-div-table">Message</label>
-              <textarea
-                className="form__container-div-table-table"
-                name="message"
-                type="message"
-              />
-            </div>
-          </div>
-
-
-
-          <div className="form__container-div-button">
-            <input
-              className="form__container-div-table-message"
-              type="submit"
-             
-            />
-          </div>
-    
-        </form>
+          </form>
         </div>
       </Element>
     </div>
