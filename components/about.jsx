@@ -1,6 +1,7 @@
 import { Link, Element } from 'react-scroll'
 import './about.scss'
 import './partials/fonts.scss'
+import resume from './assets/JessicaLee 2.docx.pdf'
 
 function About() {
   return (
@@ -30,7 +31,7 @@ function About() {
         <div className="about_me-div-button">
           <a
             className="about_me-div-cv"
-            href="./assets/JessicaLee 2.docx.pdf"
+            href={resume}
             download
           >
             {' '}
