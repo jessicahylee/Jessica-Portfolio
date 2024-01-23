@@ -23,14 +23,14 @@ function About() {
           a natural connection to code, enabling me to communicate effectively
           across multiple programming languages. Over the past five years, I
           have immersed myself in the technology world, gaining valuable
-          experience in SEO and Ads. In addition to successfully managing
-          these aspects for my own small business, Ive also contributed to the
-          growth and success of other businesses.
+          experience in SEO and Ads. In addition to successfully managing these
+          aspects for my own small business, Ive also contributed to the growth
+          and success of other businesses.
         </p>
         <div className="about_me-div-button">
           <a
             className="about_me-div-cv"
-            href="'./assets/Jessica_Lee 2.docx.pdf"
+            href="'./assets/Jessica_Lee.docx.pdf"
             download
           >
             {' '}
