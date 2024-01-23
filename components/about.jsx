@@ -30,7 +30,7 @@ function About() {
         <div className="about_me-div-button">
           <a
             className="about_me-div-cv"
-            href="'./assets/Jessica_Lee.docx.pdf"
+            href="./assets/JessicaLee 2.docx.pdf"
             download
           >
             {' '}
