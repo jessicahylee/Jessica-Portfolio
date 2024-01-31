@@ -16,7 +16,7 @@ function Services() {
 <li>Donec sodales sagittis</li>
 </ul>
 <p>
-<a class="button"><span>Sign Up</span></a>
+
 </p>
 </section>
 
@@ -32,7 +32,7 @@ function Services() {
 <li>Donec sodales sagittis</li>
 </ul>
 <p>
-<a class="button"><span>Sign Up</span></a>
+
 </p>
 </section>
 
@@ -48,7 +48,7 @@ function Services() {
 <li>Donec sodales sagittis</li>
 </ul>
 <p>
-<a class="button"><span>Sign Up</span></a>
+
 </p>
 </section>
 </div>
