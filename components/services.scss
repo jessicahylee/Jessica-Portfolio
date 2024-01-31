@@ -1,10 +1,9 @@
 .services {
-  width: auto;
+  width: 400px;
   overflow: auto;
   margin: 0 auto;
-  border: 1px solid red;
+//   border: 1px solid red;
 justify-content: space-around;
-padding-left: 60px;
 padding-top: 40px;
 padding-bottom: 30px;
 
@@ -12,7 +11,7 @@ padding-bottom: 30px;
 }
 .pricecol_web {
   width: 30%;
-  background: rgb(38, 48, 52);
+  background: white;
   min-height: 30%;
   border-radius: 10px;
   position: relative;
@@ -20,13 +19,14 @@ padding-bottom: 30px;
   text-align: center;
   font-family: verdana;
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
+   border: 1px solid black;
 }
 .icon {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background: rgb(108, 140, 54);
+  background: rgb(176, 161, 161);
   color: #fff;
   text-align: center;
   position: relative;
@@ -45,6 +45,8 @@ h3 span {
   padding: 10px 0px;
   font-family: verdana;
   font-size: 20px;
+  color: #421c0a;
+  font-size: large;
 }
 
 ul {
@@ -67,7 +69,7 @@ li {
 }
 .pricecol_SEO {
   width: 30%;
-  background: rgb(38, 48, 52);
+  background: white;
   min-height: 30%;
   border-radius: 10px;
   position: relative;
@@ -76,10 +78,11 @@ li {
   font-family: verdana;
   float: left;
   margin-left: 10px;
+   border: 1px solid black;
 }
 .pricecol_Ads {
   width: 30%;
-  background: rgb(38, 48, 52);
+  background: white;
   min-height: 30%;
   border-radius: 10px;
   position: relative;
@@ -88,4 +91,105 @@ li {
   font-family: verdana;
   float: left;
   margin-left: 10px;
+  border: 1px solid black;
+}
+
+
+@media (min-width: 1180px) and (max-width: 1800px) {
+.services {
+  width: 800px;
+  overflow: auto;
+  margin: 0 auto;
+//   border: 1px solid red;
+justify-content: space-around;
+padding-left: 60px;
+padding-top: 40px;
+padding-bottom: 30px;
+
+
+}
+.pricecol_web {
+  width: 30%;
+  background: white;
+  min-height: 30%;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px 0px;
+  text-align: center;
+  font-family: verdana;
+  float: left;
+  margin-left: 10px;
+   border: 1px solid black;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: rgb(176, 161, 161);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+.icon i {
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+}
+
+h3 span {
+  border-top: 1px solid rgb(51, 60, 64);
+  border-bottom: 1px solid rgb(25, 31, 34);
+  display: block;
+  padding: 10px 0px;
+  font-family: verdana;
+  font-size: 20px;
+  color: #421c0a;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  color: black;
+  font-family: verdana;
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  color: rgb(165, 174, 178);
+
+}
+li {
+  padding: 10px 0px;
+  border-top: 1px solid rgb(51, 60, 64);
+  border-bottom: 1px solid rgb(25, 31, 34);
+  color: black;
+}
+.pricecol_SEO {
+  width: 30%;
+  background: white;
+  min-height: 30%;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px 0px;
+  text-align: center;
+  font-family: verdana;
+  float: left;
+  margin-left: 10px;
+   border: 1px solid black;
+}
+.pricecol_Ads {
+  width: 30%;
+  background: white;
+  min-height: 30%;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px 0px;
+  text-align: center;
+  font-family: verdana;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid black;
+}
 }
