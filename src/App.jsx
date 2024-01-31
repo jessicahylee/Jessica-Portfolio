@@ -5,7 +5,7 @@ import Contact from '../components/contact';
 import Languages from '../components/languages';
 import Footer from '../components/footer';
 import Services from '../components/services';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,9 +15,7 @@ function App() {
       <Languages />
       <About />
       <Contact />
-      <Routes>
-        <Route path="/Services" element={<Services />} />
-      </Routes>
+      <Services/>
       <Footer />
     </div>
   );

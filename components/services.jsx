@@ -1,13 +1,59 @@
 import './services.scss'
 
 
-function About() {
+function Services() {
   return (
-   <div>
-    Services:
-   </div>
+   <div class="services">
+<section class="pricecol_web">
+<div class="icon">
+<i class="icon-magic"></i>
+</div>
+<h3><span>Web Design</span></h3>
+<ul >
+<li>Etiam sit amet orci</li>
+<li>Duis leo sed fringilla</li>
+<li>Mauris sit amet nibh</li>
+<li>Donec sodales sagittis</li>
+</ul>
+<p>
+<a class="button"><span>Sign Up</span></a>
+</p>
+</section>
+
+<section class="pricecol_SEO">
+<div class="icon">
+<i class="icon-leaf"></i>
+</div>
+<h3><span>Development</span></h3>
+<ul >
+<li>Etiam sit amet orci</li>
+<li>Duis leo sed fringilla</li>
+<li>Mauris sit amet nibh</li>
+<li>Donec sodales sagittis</li>
+</ul>
+<p>
+<a class="button"><span>Sign Up</span></a>
+</p>
+</section>
+
+<section class="pricecol_Ads">
+<div class="icon">
+<i class="icon-link"></i>
+</div>
+<h3><span>Support</span></h3>
+<ul>
+<li>Etiam sit amet orci</li>
+<li>Duis leo sed fringilla</li>
+<li>Mauris sit amet nibh</li>
+<li>Donec sodales sagittis</li>
+</ul>
+<p>
+<a class="button"><span>Sign Up</span></a>
+</p>
+</section>
+</div>
    
   )
 }
 
-export default About
+export default Services
