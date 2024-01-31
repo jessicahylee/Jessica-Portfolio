@@ -19,6 +19,10 @@ function Header() {
         <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
           <div className="header__container-paragraph">Contact</div>
         </Link>
+        <Link to="Services" spy={true} smooth={true} offset={-50} duration={500}>
+         <div className="header__container-paragraph">Services</div>
+        </Link>
+        
       </div>
     </div>
   )
