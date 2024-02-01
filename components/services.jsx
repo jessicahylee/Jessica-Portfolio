@@ -24,7 +24,7 @@ function Services() {
 <div class="icon">
 <i class="icon-leaf"></i>
 </div>
-<h3><span>Development</span></h3>
+<h3><span>SEO</span></h3>
 <ul >
 <li>Etiam sit amet orci</li>
 <li>Duis leo sed fringilla</li>
@@ -40,7 +40,7 @@ function Services() {
 <div class="icon">
 <i class="icon-link"></i>
 </div>
-<h3><span>Support</span></h3>
+<h3><span>Ads</span></h3>
 <ul>
 <li>Etiam sit amet orci</li>
 <li>Duis leo sed fringilla</li>
